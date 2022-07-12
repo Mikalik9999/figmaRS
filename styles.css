@@ -563,7 +563,7 @@ footer > ul > li > a > img:hover {
         font-size: 11px;
         line-height: 15px;
         margin-right: 8px;}
-    #preview { background-image: url("/travel/image/headerTwo.jpg")}
+    #preview { background-image: url("/image/headerTwo.jpg")}
     #steps > div > h2 {font-size: 14px;
         line-height: 19px;
         height: unset;
@@ -601,7 +601,7 @@ footer > ul > li > a > img:hover {
     display: none}
     .country {
         width: unset;
-        background: url("/travel/image/spainTwo.jpg") 100% 100% no-repeat;
+        background: url("/image/spainTwo.jpg") 100% 100% no-repeat;
         min-height: 210px;
         margin: 0 15px;
         border-radius: 16px;
@@ -626,11 +626,11 @@ footer > ul > li > a > img:hover {
         width: 100%}
     .nextLeft {width: 30px;
         height: 30px;
-        background: url("/travel/image/left.svg") 100% 100% no-repeat;
+        background: url("/image/left.svg") 100% 100% no-repeat;
         margin-left: 5px;}
     .nextRight {width: 30px;
         height: 30px;
-        background: url("/travel/image/right.svg") 100% 100% no-repeat;
+        background: url("/image/right.svg") 100% 100% no-repeat;
         padding-left: 80%;}
     .scroll {
         display: flex;
@@ -684,7 +684,7 @@ footer > ul > li > a > img:hover {
     .thailand > img {display: none}
     #thailand, #utah, #long, #mountains { margin: 0}
     .imgThailand {
-        background: url("/travel/image/thailandTwo.jpg" ) 100% 100% no-repeat;
+        background: url("/image/thailandTwo.jpg" ) 100% 100% no-repeat;
         width: 100%;
         min-height: 130px;
         min-width: 155px;
@@ -731,7 +731,7 @@ footer > ul > li > a > img:hover {
         align-items: center}
     .utah > img {display: none}
     .imgUtah {
-        background: url("/travel/image/utahTwo.jpg" ) 100% 100% no-repeat;
+        background: url("/image/utahTwo.jpg" ) 100% 100% no-repeat;
         width: 100%;
         min-height: 130px;
         min-width: 155px;
@@ -777,7 +777,7 @@ footer > ul > li > a > img:hover {
         align-items: center}
     #mountainsUtah > img {display: none}
     .imgMountains {
-        background: url("/travel/image/mountainsTwo.jpg" ) 100% 100% no-repeat;
+        background: url("/image/mountainsTwo.jpg" ) 100% 100% no-repeat;
         width: 100%;
         min-height: 130px;
         min-width: 155px;
@@ -823,7 +823,7 @@ footer > ul > li > a > img:hover {
         align-items: center}
     .long > img {display: none}
     .imgLong {
-        background: url("/travel/image/longTwo.jpg" ) 100% 100% no-repeat;
+        background: url("/image/longTwo.jpg" ) 100% 100% no-repeat;
         width: 100%;
         min-height: 130px;
         min-width: 155px;
@@ -866,9 +866,11 @@ footer > ul > li > a > img:hover {
         font-weight: bold}
     .shadow {
         padding-top: 0;
+        padding-bottom: 5%;
     }
     .stories {
-        background-image: url("/travel/image/globalTwo.jpg");
+        background-image: url("/image/globalTwo.jpg");
+        padding-bottom: 17%;
     }
     .imgLong {margin-bottom: 10px;}
     #see {margin-top: 0;
