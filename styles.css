@@ -570,20 +570,21 @@ footer > ul > li > a > img:hover {
     .stepsDoing { width: 70px;
             height: 70px}
     .stepsDoing > img {width: 50%;
-        height: 31px}
+        height: 35px}
     .tellSteps > p {
         margin: 20px 0;
     }
     .steps {
         font-size: 10px;
         line-height: 12px;
-        margin: 0 auto;
+        margin: 0;
     }
     #bice {width: 74px}
     #bice > p {text-align: left}
     #fly {width: 74px}
     #fly > p {text-align: right}
-    #date {justify-content: unset}
+    #date {justify-content: unset;
+        padding-left: 9%}
     #steps > div { height: unset }
     #destinations > h2 {
         margin-top: 0;
