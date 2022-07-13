@@ -551,9 +551,8 @@ footer > ul > li > a > img:hover {
     text-decoration: none;
 }
 
-@font-face {
-    font-family: Pompadur; /* Гарнитура шрифта */
-    src: url(/red); /* Путь к файлу со шрифтом */
+.wrapper {
+    background-color: #F2785C;
 }
 
 .navi {
@@ -570,20 +569,23 @@ footer > ul > li > a > img:hover {
             margin: 0 0 0 15px;
             padding-top: 15px;}
 
-.show {display: unset}
 
-.closeNavi {display: none}
 
 @media ( max-width: 391px) {
-    header { display: flex}
-
+    header { display: flex;
+        justify-content: space-between}
+    .icon {padding: 0 21px 0 0;}
     .menuBurger {display: block;
-        padding: 41px 0 0 828%}
+        padding: 41px 0 0 0}
+    #menu {display: block}
     nav { display: none}
     .textLogo { display: none}
     .logoNav > button { display: none}
     .logoNav { background: none;
                 all: unset}
+    .show {display: unset}
+
+    .closeNavi {display: none}
     .logo {padding: 45px 0 0 16px}
     .imageLogo > img { color: #FFFFFF}
     .header-info {width: 93%;
