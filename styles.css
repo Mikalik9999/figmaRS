@@ -530,7 +530,20 @@ footer > ul > li > a > img:hover {
 
 #thailandRead, #longRead, #mountainsRead, #utahRead {display: none}
 
+.menuBurger {display: none;
+    background-image: url("/image/burgerMenu.svg");
+    width: 35px;
+    height: 35px}
+
+.navigationMenu {display: none}
+
+.show {display: unset}
+@media ( max-width: 1024px) {
+    .menuBurger {display: block}
+}
+
 @media ( max-width: 391px) {
+    .menuBurger {display: block}
     nav { display: none}
     .textLogo { display: none}
     .logoNav > button { display: none}
@@ -899,5 +912,6 @@ footer > ul > li > a > img:hover {
     #plain > img {width: 40px}
     .nextSpain {order: 1}
     .nextJapan {order: 0}
+
 
 }
