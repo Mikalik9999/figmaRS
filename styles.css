@@ -536,7 +536,7 @@ footer > ul > li > a > img:hover {
     .logoNav > button { display: none}
     .logoNav { background: none;
                 all: unset}
-    .logo {padding: 41px 0 0 16px}
+    .logo {padding: 45px 0 0 16px}
     .imageLogo > img { color: #FFFFFF}
     .header-info {width: 93%;
             margin: auto;
@@ -553,14 +553,16 @@ footer > ul > li > a > img:hover {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 10px 10px;
+        padding: 7px 16px;
         gap: 10px;
         background: #0D606F;
         box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
         border-radius: 10px;
         font-size: 11px;
         line-height: 15px;
-        margin-right: 8px;}
+        margin-right: 10px;
+        margin-bottom: 6px;
+        }
     #preview { background-image: url("/image/headerTwo.jpg")}
     #steps > div > h2 {font-size: 14px;
         line-height: 19px;
@@ -577,14 +579,15 @@ footer > ul > li > a > img:hover {
     .steps {
         font-size: 10px;
         line-height: 12px;
-        margin: 0;
+        margin: auto;
+        justify-content: space-between;
     }
     #bice {width: 74px}
     #bice > p {text-align: left}
     #fly {width: 74px}
-    #fly > p {text-align: right}
-    #date {justify-content: unset;
-        padding-left: 9%}
+    #fly > p {text-align: right;
+        padding-right: 6px}
+    #date {justify-content: unset;}
     #steps > div { height: unset }
     #destinations > h2 {
         margin-top: 0;
@@ -626,11 +629,11 @@ footer > ul > li > a > img:hover {
     .nextLeft {width: 30px;
         height: 30px;
         background: url("/image/left.svg") 100% 100% no-repeat;
-        margin-left: 5px;}
+        margin-left: -4px;}
     .nextRight {width: 30px;
         height: 30px;
         background: url("/image/right.svg") 100% 100% no-repeat;
-        padding-left: 80%;}
+        padding-left: 83%;}
     .scroll {
         display: flex;
         width: 100%;
@@ -659,7 +662,7 @@ footer > ul > li > a > img:hover {
         box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
         border-radius: 10px;
         width: auto;
-        padding: 7px 12px;
+        padding: 7px 15px;
         color: #FFFFFF;
         font-family: 'Red Hat Text',serif;
         font-style: normal;
@@ -681,7 +684,8 @@ footer > ul > li > a > img:hover {
         display: flex;
         align-items: center}
     .thailand > img {display: none}
-    #thailand, #utah, #long, #mountains { margin: 0}
+    #thailand, #utah, #long, #mountains { margin: 0;
+        padding-bottom: 3px}
     .imgThailand {
         background: url("/image/thailandTwo.jpg" ) 100% 100% no-repeat;
         width: 100%;
@@ -865,7 +869,7 @@ footer > ul > li > a > img:hover {
         font-weight: bold}
     .shadow {
         padding-top: 0;
-        padding-bottom: 5%;
+        padding-bottom: 4%;
     }
     .stories {
         background-image: url("/image/globalTwo.jpg");
@@ -880,14 +884,20 @@ footer > ul > li > a > img:hover {
     footer > ul {
         margin: auto;
         height: 85%;
-        padding: 0 0 16px 0;
+        padding: 0 0 20px 0;
     }
-    footer{padding: 0}
+    footer{padding: 0;
+        margin-bottom: -9px;
+        margin-left: 9px}
     .imgUtah { margin-top: 0}
-    #utah {padding-bottom: 10px}
+    #utah {padding-bottom: 13px}
     .imgMountains { margin-top: 0}
-    #mountains {padding-bottom: 10px}
+    #mountains {padding-bottom: 13px}
     .imgLong { margin-top: 0}
-    #long {padding-bottom: 10px}
-    .stories {padding-bottom: 10%}
+    #long {padding-bottom: 8px}
+    .stories {padding-bottom: 11%}
+    #plain > img {width: 40px}
+    .nextSpain {order: 1}
+    .nextJapan {order: 0}
+
 }
