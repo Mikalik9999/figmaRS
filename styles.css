@@ -531,19 +531,54 @@ footer > ul > li > a > img:hover {
 #thailandRead, #longRead, #mountainsRead, #utahRead {display: none}
 
 .menuBurger {display: none;
-    background-image: url("/image/burgerMenu.svg");
+    background: url("/image/burgerMenu.svg") 100% 100% no-repeat;
     width: 35px;
     height: 35px}
 
-.navigationMenu {display: none}
+.navigationMenu {display: block;
+    width: 165px;
+    height: 250px;
+    background: #F2785C;
+    box-shadow: 0 4px 3px rgba(13, 96, 111, 0.25);
+    border-radius: 10px}
 
-.show {display: unset}
-@media ( max-width: 1024px) {
-    .menuBurger {display: block}
+.navi > ul {
+    list-style: none;
 }
 
+.navi > ul > li > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(/red); /* Путь к файлу со шрифтом */
+}
+
+.navi {
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.close { background: url("/image/close.svg") 100% 100% no-repeat;
+            width: 15px;
+            height: 15px;
+            margin: 0 0 0 15px;
+            padding-top: 15px;}
+
+.show {display: unset}
+
+.closeNavi {display: none}
+
 @media ( max-width: 391px) {
-    .menuBurger {display: block}
+    header { display: flex}
+
+    .menuBurger {display: block;
+        padding: 41px 0 0 828%}
     nav { display: none}
     .textLogo { display: none}
     .logoNav > button { display: none}
