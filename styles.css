@@ -520,6 +520,10 @@ footer > ul > li > a > img:hover {
     transition: all 0.5s ease;
 }
 
+.navigationMenu:hover {
+    transition: all 1s ease;
+}
+
 .next {
     display: none;
 }
@@ -536,15 +540,29 @@ footer > ul > li > a > img:hover {
     height: 35px}
 
 .navigationMenu {
+    position: absolute;
+    left: 225px;
     width: 165px;
     height: 250px;
     background: #F2785C;
     box-shadow: 0 4px 3px rgba(13, 96, 111, 0.25);
     border-radius: 10px;
+    transition: 1.5s;
     display: none}
+
+.clearfix {
+    list-style-type: none;
+}
+
+.transformation {
+    transform: translate(200px,0);
+    -webkit-transform: translate(200px,0);
+    transition: all 3s ease-in-out;
+}
 
 .navi > ul {
     list-style: none;
+    transition: 1.5s;
 }
 
 .navi > ul > li > a {
@@ -561,6 +579,7 @@ footer > ul > li > a > img:hover {
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
+    transition: 1.5s;
 }
 
 .close { background: url("/image/close.svg") 100% 100% no-repeat;
@@ -581,7 +600,16 @@ footer > ul > li > a > img:hover {
     .logoNav > button { display: none}
     .logoNav { background: none;
                 all: unset}
-    .show {display: block}
+    .show {display: block;
+        animation: showBlock 1s linear forwards;}
+    @keyframes showBlock {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
     .closeNavi {display: none}
     .logo {padding: 45px 0 0 16px}
     .imageLogo > img { color: #FFFFFF}

@@ -3,9 +3,16 @@ document.getElementById("close").onclick = function() {close()};
 
 function open() {
     document.getElementById("menu").style.display="none";
-    document.getElementById("navigationMenu").classList.toggle("show");
+    document.getElementById("navigationMenu").classList.add("show");
 }
 function close() {
-    document.getElementById("navigationMenu").classList.toggle("closeNavi");
-    document.getElementById("menu").style.display="block";
+    document.getElementById("navigationMenu").classList.add("transformation");
+    function close() {
+        document.getElementById("navigationMenu").classList.remove("show");
+        document.getElementById("menu").style.display="block";
+        document.getElementById("navigationMenu").classList.remove("transformation")
+    }
+    setTimeout(close, 1000);
 }
+
+
