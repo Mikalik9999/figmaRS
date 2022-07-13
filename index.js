@@ -8,7 +8,6 @@ document.onclick = function (e) {
 
 function open() {
     document.getElementById("menu").style.display="none";
-    alert('sdg');
     document.getElementById("navigationMenu").classList.add("show");
 }
 function close() {
