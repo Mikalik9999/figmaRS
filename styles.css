@@ -535,7 +535,7 @@ footer > ul > li > a > img:hover {
     width: 35px;
     height: 35px}
 
-.navigationMenu {display: block;
+.navigationMenu {display: none;
     width: 165px;
     height: 250px;
     background: #F2785C;
