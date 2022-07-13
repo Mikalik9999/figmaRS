@@ -535,12 +535,13 @@ footer > ul > li > a > img:hover {
     width: 35px;
     height: 35px}
 
-.navigationMenu {display: none;
+.navigationMenu {
     width: 165px;
     height: 250px;
     background: #F2785C;
     box-shadow: 0 4px 3px rgba(13, 96, 111, 0.25);
-    border-radius: 10px}
+    border-radius: 10px;
+    display: none}
 
 .navi > ul {
     list-style: none;
@@ -552,7 +553,6 @@ footer > ul > li > a > img:hover {
 }
 
 .wrapper {
-    background-color: #F2785C;
 }
 
 .navi {
@@ -569,8 +569,6 @@ footer > ul > li > a > img:hover {
             margin: 0 0 0 15px;
             padding-top: 15px;}
 
-
-
 @media ( max-width: 391px) {
     header { display: flex;
         justify-content: space-between}
@@ -583,8 +581,7 @@ footer > ul > li > a > img:hover {
     .logoNav > button { display: none}
     .logoNav { background: none;
                 all: unset}
-    .show {display: unset}
-
+    .show {display: block}
     .closeNavi {display: none}
     .logo {padding: 45px 0 0 16px}
     .imageLogo > img { color: #FFFFFF}
